@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import Test from 'Test';
+import SearchBar from 'search_bar';
 
-ReactDOM.render(<Test/>, document.querySelector('.test'));
+const App = () => {
+  return (
+    <div>
+      <SearchBar/>
+    </div>
+  );
+};
+
+ReactDOM.render(<App/>, document.querySelector('.container'));

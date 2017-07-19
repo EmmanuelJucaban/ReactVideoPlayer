@@ -72,7 +72,7 @@ export default (env) => {
     resolve: {
       extensions: ['.js', '.css'],
       alias: {
-        Test: path.resolve(__dirname, '..', "src/components/test")
+        search_bar: path.resolve(__dirname, '..', "src/components/search_bar")
       }
     },
     devServer: {
