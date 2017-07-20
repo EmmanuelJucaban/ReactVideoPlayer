@@ -30,7 +30,6 @@
     "serve-prod": "webpack-dev-server --env=production",
     "build-development": "webpack --env=development",
     "build-production": "webpack --env=production",
-    "build-watch": "webpack -w",
     "serve-development": "webpack-dev-server --env=development",
     "serve-production": "webpack-dev-server --env=production"
   },
@@ -38,6 +37,7 @@
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "youtube-api-search": "^0.0.5"
   }
 }

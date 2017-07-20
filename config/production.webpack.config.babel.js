@@ -6,7 +6,7 @@ import cleanWebpackPlugin from 'clean-webpack-plugin';
 import optimizeCssAssetsWebpackPlugin from 'optimize-css-assets-webpack-plugin';
 
 var VENDOR_LIBS = [
-  "bootstrap", "jquery", "react", "react-dom"
+  'bootstrap', 'jquery', 'react', 'react-dom', 'youtube-api-search'
 ];
 
 
@@ -88,7 +88,9 @@ export default (env) => {
     resolve: {
       extensions: ['.js', '.css'],
       alias: {
-        search_bar: path.resolve(__dirname, '..', "src/components/search_bar")
+        components: path.resolve(__dirname, '..','src/components'),
+        search_bar: path.resolve(__dirname, '..', "src/components/search_bar"),
+        styles: path.resolve(__dirname, '..', 'src/styles')
       }
     },
     devServer: {
